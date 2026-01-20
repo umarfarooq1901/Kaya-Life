@@ -1,5 +1,6 @@
 import Hero from '@/components/home/Hero'
 import About from '@/components/home/About'
+import Science from '@/components/home/Science'
 import Services from '@/components/home/Services'
 import Technology from '@/components/home/Technology'
 import WhyChooseUs from '@/components/home/WhyChooseUs'
@@ -12,6 +13,7 @@ export default function Home() {
     <>
       <Hero />
       <About />
+      <Science />
       <Services />
       <Technology />
       <WhyChooseUs />

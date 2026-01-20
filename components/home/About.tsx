@@ -83,10 +83,11 @@ export default function About() {
                   <p className="text-bottle-100">State-of-the-art Facility</p>
                 </div>
               </div> */}
-              <img
+              <Image
                 src="/images/WhatsApp Image 2026-01-20 at 3.54.52 PM (1).jpeg"
                 alt="Kaya Life Science Facility"
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                fill
+                className="object-cover transition-transform duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-bottle-900/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-8 left-8 text-white">
