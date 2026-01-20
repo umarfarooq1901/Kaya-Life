@@ -39,9 +39,9 @@ export default function Header() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 border-b ${isScrolled || isMobileMenuOpen
-        ? 'bg-bottle-950/90 backdrop-blur-md border-white/10 py-3 shadow-xl'
-        : 'bg-transparent border-transparent py-6'
-        }`}
+        ? 'bg-bottle-950/90 backdrop-blur-md border-white/10 shadow-xl'
+        : 'bg-transparent border-transparent'
+        } ${isScrolled ? 'py-3' : 'py-6'}`}
     >
       <nav className="container mx-auto px-4">
         <div className="flex items-center justify-between">
@@ -105,7 +105,7 @@ export default function Header() {
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label="Toggle menu"
           >
-            <div className="w-6 flex flex-col items-end gap-[5px] group">
+            <div className="w-6 flex flex-col items-end gap-[6px] group">
               <span className={`h-0.5 bg-current transition-all duration-300 ${isMobileMenuOpen ? 'w-6 rotate-45 translate-y-2' : 'w-6'}`}></span>
               <span className={`h-0.5 bg-current transition-all duration-300 ${isMobileMenuOpen ? 'opacity-0' : 'w-4 group-hover:w-6'}`}></span>
               <span className={`h-0.5 bg-current transition-all duration-300 ${isMobileMenuOpen ? 'w-6 -rotate-45 -translate-y-2' : 'w-3 group-hover:w-6'}`}></span>
