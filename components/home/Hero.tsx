@@ -20,7 +20,7 @@ export default function Hero() {
           <div className="absolute top-40 right-10 w-96 h-96 bg-bottle-500 rounded-full mix-blend-multiply filter blur-3xl animate-float" style={{ animationDelay: '2s' }}></div>
           <div className="absolute -bottom-8 left-1/2 w-96 h-96 bg-accent-gold/50 rounded-full mix-blend-multiply filter blur-3xl animate-float" style={{ animationDelay: '4s' }}></div>
         </div>
-        
+
         {/* Overlay pattern */}
         <div className="absolute inset-0 opacity-5" style={{
           backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
@@ -42,7 +42,7 @@ export default function Hero() {
 
           {/* Main Heading */}
           <div className={`text-center space-y-6 ${mounted ? 'animate-fade-in' : 'opacity-0'}`} style={{ animationDelay: '0.1s' }}>
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-tight font-serif">
+            <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-white leading-tight font-serif">
               Your Journey to
               <br />
               <span className="relative inline-block">
@@ -54,9 +54,9 @@ export default function Hero() {
               <br />
               Begins Here
             </h1>
-            
+
             <p className="text-xl md:text-2xl text-bottle-100 max-w-3xl mx-auto font-light leading-relaxed">
-              Southeast Asia&apos;s pioneering medical cannabis facility combining ancient wisdom 
+              Southeast Asia&apos;s pioneering medical cannabis facility combining ancient wisdom
               with cutting-edge pharmaceutical-grade technology
             </p>
 

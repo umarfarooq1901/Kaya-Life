@@ -18,7 +18,7 @@ export default function SustainabilityPage() {
         />
         <div className="absolute inset-0 bg-bottle-900/80"></div>
         <div className="container mx-auto text-center relative z-10">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">Sustainability & ESG</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6">Sustainability & ESG</h1>
           <p className="text-xl text-bottle-100 max-w-3xl mx-auto">
             Building a responsible future through environmental stewardship, social responsibility, and transparent governance
           </p>

@@ -13,7 +13,7 @@ export default function About() {
   return (
     <section className="section-padding bg-white" ref={ref}>
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Content */}
           <div className={`space-y-6 ${inView ? 'animate-slide-up' : 'opacity-0'}`}>
             <div className="inline-block px-4 py-2 bg-bottle-100 text-bottle-700 rounded-full text-sm font-semibold">

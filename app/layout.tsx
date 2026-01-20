@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     description: 'Southeast Asia\'s first technology-driven, EU-GMP pathway cannabis operator',
     type: 'website',
   },
+  icons: {
+    icon: '/logo/Screenshot 2026-01-20 201854.png',
+  },
 }
 
 export default function RootLayout({

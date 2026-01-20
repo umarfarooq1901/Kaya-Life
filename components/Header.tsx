@@ -39,8 +39,8 @@ export default function Header() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 border-b ${isScrolled || isMobileMenuOpen
-          ? 'bg-bottle-950/90 backdrop-blur-md border-white/10 py-3 shadow-xl'
-          : 'bg-transparent border-transparent py-6'
+        ? 'bg-bottle-950/90 backdrop-blur-md border-white/10 py-3 shadow-xl'
+        : 'bg-transparent border-transparent py-6'
         }`}
     >
       <nav className="container mx-auto px-4">
@@ -115,7 +115,7 @@ export default function Header() {
 
         {/* Mobile Menu Overlay */}
         <div
-          className={`fixed inset-0 bg-bottle-950/95 backdrop-blur-xl transition-all duration-500 md:hidden flex items-center justify-center ${isMobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+          className={`fixed inset-0 bg-bottle-950/95 backdrop-blur-xl transition-all duration-500 md:hidden flex items-center justify-center z-40 ${isMobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
             }`}
         >
           <div className="w-full h-full relative overflow-hidden">
