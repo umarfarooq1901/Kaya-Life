@@ -38,9 +38,11 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 border-b ${isScrolled || isMobileMenuOpen
-        ? 'bg-bottle-950/90 backdrop-blur-md border-white/10 shadow-xl'
-        : 'bg-transparent border-transparent'
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 border-b ${isMobileMenuOpen
+          ? 'bg-transparent border-transparent'
+          : isScrolled
+            ? 'bg-bottle-950/90 backdrop-blur-md border-white/10 shadow-xl'
+            : 'bg-transparent border-transparent'
         } ${isScrolled ? 'py-3' : 'py-6'}`}
     >
       <nav className="container mx-auto px-4">
